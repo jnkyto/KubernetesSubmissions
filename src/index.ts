@@ -1,4 +1,4 @@
-const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+const CHARS = "0123456789ABCDEF";
 
 const generateRandomString = () => {
     const randomString = Array.from({ length: 16 }, () => CHARS[Math.floor(Math.random() * CHARS.length)]).join('');
