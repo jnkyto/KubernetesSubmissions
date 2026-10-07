@@ -1,0 +1,21 @@
+{
+  "name": "ks-mooc-the-project",
+  "version": "1.2.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
