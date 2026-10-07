@@ -6,7 +6,7 @@
   "author": "Joona Kytöniemi",
   "license": "MIT",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "node src/index.ts",
     "build": "tsc",
